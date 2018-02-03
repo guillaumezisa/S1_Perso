@@ -1,0 +1,57 @@
+html{
+background : url("background.jpg") ;
+}
+#connexion {
+background : url("connexion.jpg") ;
+text-align : center;
+font-size : 18px;
+border : black solid 2px;
+width : 278px;
+margin-left : 39%;
+margin-top : 5%;
+}
+#board{
+font-size : 20px;
+display : block;
+width : 50%;
+margin-left : 39%;
+margin-top : -17%;
+}
+table {
+border-collapse : collapse;
+}
+td, th {
+ border: solid black 1px;
+}
+#tchat {
+background : url("tchat.jpg");
+border : black solid 8px;
+width : 198%  ;
+margin-left : -78%;
+margin-top : 0%;
+font-size : 18px;
+}
+#tchattext {
+margin : 5px;
+}
+.btn-group .button {
+    background-color: #615EC9;
+    border: 1px solid black;
+    color: black;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+    width: 150px;
+    display: block;
+}
+
+.btn-group .button:not(:last-child) {
+    border-bottom: none; /* Prevent double borders */
+}
+
+.btn-group .button:hover {
+    background-color: #750009;
+}

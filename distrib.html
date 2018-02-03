@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title> Distributeur </title>
+		<meta http-equiv='Content-Type' content='text/html; charset=utf-8' />
+		<link rel="stylesheet" href="style.css"/>
+	</head>
+	<body>
+<form action="req_retour" methode="GET">
+	<input type="hidden" name="pseudo" value="{pseudo}">
+	<button> Retour </button>
+</form>
+	<center><div id="distrib"><img height="320"width="210"src="distrib.png"></div></center>
+<form action="req_distrib" methode="GET">
+	<input type="hidden" name="pseudo" value="{pseudo}">
+	<center>
+	<button name="button" value="1"><img width="45px"src="1.png"></img></button>
+	<button name="button" value="2"><img width="45px"src="2.png"></img></button>
+	<button name="button" value="3"><img width="45px"src="3.png"></img></button>
+	<button name="argent" value="0"><img width="45px"src="20c.png"></img></button><br>
+	<button name="button" value="4"><img width="45px"src="4.png"></img></button>
+	<button name="button" value="5"><img width="45px"src="5.png"></img></button>
+	<button name="button" value="6"><img width="45px"src="6.png"></img></button>
+	<button name="argent" value="1"><img width="45px"src="50c.png"></img></button><br>
+	<button name="button" value="7"><img width="45px"src="7.png"></img></button>
+	<button name="button" value="8"><img width="45px"src="8.png"></img></button>
+	<button name="button" value="9"><img width="45px"src="9.png"></img></button>
+	<button name="argent" value="2"><img width="45px"src="1e.png"></img></button><br>
+	<button name="button" value="a"><img width="45px"src="a.png"></img></button>
+	<button name="button" value="b"><img width="45px"src="b.png"></img></button>
+	<button name="button" value="c"><img width="45px"src="c.png"></img></button>
+	<button name="argent" value="3"><img width="45px"src="2e.png"></img></button><br>
+</center>
+</form>
+{fin}{argent}{rejouer}
+</body>
+
+</html>

@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Guillaume Zisa</title>
+		<meta http-equiv='Content-Type' content='text/html; charset=utf-8' />
+		<link rel="stylesheet" href="style.css"/>
+	</head>
+	<body>
+		<center><h2>Bienvenue {pseudo} !</h2></center>
+		<div class="btn-group">
+			<form action="req_retour" methode="GET">
+				<input type="hidden" name="pseudo" value="{pseudo}">
+  				<button class="button">Retour</button>
+			</form>
+			<form action="req_nb_commencer" methode="GET">
+				<input type="hidden" name="pseudo" value="{pseudo}">
+  				<button class="button">Nombre Aléatoire</button>
+			</form>
+			<form action="req_machine_commencer" methode="GET">
+				<input type="hidden" name="pseudo" value="{pseudo}">
+  				<button class="button">Machine a sous</button>
+			</form>
+			<form action="req_newworld_commencer" methode="GET">
+				<input type="hidden" name="pseudo" value="{pseudo}">
+  				<button class="button">NewWorld</button>
+			</form>
+			<form action="req_cross_commencer" methode="GET">
+				<input type="hidden" name="pseudo" value="{pseudo}">
+  				<button class="button">Cross</button>
+			</form>
+		</div>
+		</form>
+	</body>
+</html>

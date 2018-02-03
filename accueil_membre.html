@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Guillaume Zisa</title>
+		<meta http-equiv='Content-Type' content='text/html; charset=utf-8' />
+		<meta http-equiv="refresh"content="10, url=/req_accueil_membre_boucle?pseudo={pseudo}&text=£"/>
+		<link rel="stylesheet" href="style.css"/>
+	</head>
+	<body>
+		<center><h2>Bienvenue {pseudo} !</h2></center>
+	<center><b>Sur ce site est stockée une petite quantité de programme/jeux écrit en JS/html .</b></center>   
+		<div class="btn-group">
+			<form action="/req_programme" methode="GET">
+				<input type="hidden" name="pseudo" value="{pseudo}">
+  				<button class="button">Programmes</button>
+			</form>
+			<form action="req_jeux" methode="GET"> 
+				<input type="hidden" name="pseudo" value="{pseudo}">
+  				<button class="button">Jeux</button>
+			</form>
+			<form action="req_contact" methode="GET">
+				<input type="hidden" name="pseudo" value="{pseudo}">
+  				<button class="button">Contact</button>
+			</form>
+			<form action="req_perso" methode="GET">
+				<input type="hidden" name="pseudo" value="{pseudo}">
+  				<button class="button">Perso</button>
+			</form  >
+			<form action="req_commencer" methode="GET">
+				<input type="hidden" name="pseudo" value="{pseudo}">
+  				<button class="button">Se déconnecter</button>
+			</form>
+		</div>
+	<div id ="board">
+	<table>
+	<tr>
+       <th>Type</th><th>Nom</th><th> Status </th>
+   </tr>
+   <tr>
+		<td>Programme</td>
+      <td>Distributeur</td>
+      <td>Fonctionnel V1</td>
+   </tr>
+	<tr>
+		 <td>Programme</td>
+       <td>Machine a sous</td>
+       <td>Fonctionnel v1</td>
+   </tr>
+	<tr>
+		 <td>Programme</td>
+       <td>Todo Liste</td>
+       <td>Fonctionnel v1</td>
+	</tr>
+   <tr>
+		 <td>Programme</td>
+       <td>Tchat</td>
+       <td>Fonctionnel v1</td>
+	</tr>
+   <tr>
+		<td><center>Jeux</center></td>
+      <td>Nombre aléatoire</td>
+      <td>Fonctionnel v1</td>
+	</tr>
+   <tr>
+		<td><center>Jeux</center></td>
+      <td>Machine a sous</td>
+      <td>Fonctionnel v1</td>
+	</tr>
+   <tr>
+   <tr>
+		<td><center>Jeux</center></td>
+      <td>NewWorld</td>
+      <td>En cours</td>
+	</tr>
+		<td><center>Jeux</center></td>
+      <td>Cross</td>
+      <td>Refaire</td>
+   </tr>
+	</table>
+	</form>
+		<b><br><br>	
+		<div id ="tchat">
+			<div id ="tchattext">
+				{tchat}
+			</div>
+		<form action="req_accueil_membre_boucle" method="GET">
+			<input type="hidden" name=pseudo value="{pseudo}">
+			<input type="textarea" size="202%"name="text" value="">
+			<input type="submit" name="envoyer" value="envoyer">
+		</form>
+		</div>
+		
+	</body>
+</html>

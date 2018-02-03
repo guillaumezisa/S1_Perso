@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+
+<meta http-equiv='Content-Type' content='text/html; charset=utf-8' />
+
+<h2>todo</h2>
+
+<p/>
+<form action="req_todo" method="get">
+	<input type="hidden" name="pseudo" value="{pseudo}">
+	<input type="text" name="waza" value="">
+	<input type="submit" name="ajouter" value="add">
+</form>
+{todoliste}
+
+
+
+<form action="req_todo_quitter" method="get">
+	<input type="hidden" name=pseudo value={pseudo}>
+	<button>quitter</button>
+</form>
+</p>
+
+</html>

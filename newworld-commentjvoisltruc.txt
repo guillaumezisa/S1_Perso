@@ -1,0 +1,1 @@
+une page de jeu avec vie karma santémental de:wq:ws choix sont proposé le joueurs acceptes ou non , a la fin de la journée il peut manger se soigner ou dormir en cliquant sur les objets de son inventaire le joueur peut egalement choisir son arme principale ,  il ne peut y avoir une seul arme a la fois mais il peut ramener des armes dans son abris.
